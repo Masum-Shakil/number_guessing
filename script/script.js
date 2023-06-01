@@ -14,7 +14,7 @@ function gameFunction() {
 
         if (item === 3) {
 
-            if (guessNumber === randomNumber) {
+            if (guessNumber == randomNumber) {
                 divElement.className = "alert alert-success";
                 divElement.textContent = "Inputted number is correct and you have won";
                 output.appendChild(divElement);
