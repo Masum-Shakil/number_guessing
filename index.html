@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Template</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container mt-4"> 
+    <div id="output"></div>   
+    <label class="form-label">Welcome to my number guessing game. The game rules are follwed as:</label>
+    <div class="mb-3">
+        <ol>
+            <li>You have to guess a number between 1 to 10 (mutually inclusive)</li>
+            <li>You will find three chances to guess the correct number</li>
+            <li>If your given number is greater then correct number you will find a hint that your given number is greater</li>
+            <li>If your given number is smaller then correct number you will find a hint that your given number is smaller</li>
+            <li>If your given number is exactly equal to the correct number you will find a hint that your given number is correct</li>
+            <li>After availing three chances if you can not make the correct guess you will be looser</li>
+            <li>By clicking the bellow button the game will be started</li>
+        </ol>
+    </div>    
+    <button type="button" class="btn btn-primary" id="triggerButton">Lets Start!!</button>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script/script.js"></script>
+</body>
+</html>
